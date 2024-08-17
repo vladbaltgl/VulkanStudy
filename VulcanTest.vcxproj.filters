@@ -30,6 +30,9 @@
     <ClCompile Include="lve_device.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="lve_swap_chain.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lve_window.h">
@@ -44,10 +47,8 @@
     <ClInclude Include="lve_device.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="compile.bat">
-      <Filter>Исходные файлы</Filter>
-    </None>
+    <ClInclude Include="lve_swap_chain.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
